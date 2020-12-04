@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-const TitleComponent = ({title}) => {
+const Titlecomponent = ({title}) => {
     return (
         <div>
-            <h1>{title}</h1>
+            <h1>{title}</h1> 
         </div>
     );
 };
 
-export default TitleComponent;
+export default Titlecomponent;

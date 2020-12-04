@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 import {
-    ParagraphComponent
-  } from '../../components';
+    ParagraphComponent,
+} from "../../components"
 
 class SecondaryContainer extends Component {
     render() {

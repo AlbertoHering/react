@@ -1,12 +1,13 @@
-//import logo from './logo.svg';
 import React, {
   BrowserRouter,
   Switch,
   Route
 } from 'react-router-dom'
+
 import './App.css';
-import MainContainer from './containers/maincontainer/';
-import SecondaryContainer from './containers/secondarycontainer/';
+
+import MainContainer from "./containers/maincontainer"
+import SecondaryContainer from "./containers/secondarycontainer"
 
 function App() {
   return (
@@ -14,14 +15,14 @@ function App() {
       <Switch>
         <Route
           exact path="/"
-          name="Home"
+          name="main"
           render={props => <MainContainer {...props}/>}
         />
         <Route
           exact path="/secondary"
-          name="Secondary"
+          name="secondary"
           render={props => <SecondaryContainer {...props}/>}
-        />
+        />        
       </Switch>
     </BrowserRouter>
   );
